@@ -8,17 +8,17 @@ selected filter and plotted together on the source spectrum.
 
 ## Run it
 
-From this directory, activate the existing astronomy environment and launch:
+Launch the notebook from the environment in which it was installed:
 
 ```bash
-conda activate astronomy
+conda activate <environment>
 jupyter lab notebooks/jwst_nircam_sensitivity_prototype.ipynb
 ```
 
 Run the tests with:
 
 ```bash
-conda run -n astronomy pytest -q
+conda run -n <environment> pytest -q
 ```
 
 ## Structure
