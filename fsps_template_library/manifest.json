@@ -1,0 +1,375 @@
+{
+  "description": "FSPS simple stellar population template library for galaxy subtraction.",
+  "redshift": 0.0,
+  "ages_gyr": [
+    0.1,
+    0.5,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "logzsol_grid": [
+    -0.5,
+    0.0,
+    0.2
+  ],
+  "fsps_settings": {
+    "zcontinuous": 1,
+    "sfh": 0,
+    "imf_type": 1,
+    "add_neb_emission": false,
+    "dust_type": 0,
+    "peraa": true
+  },
+  "flux_units": "L_sun / Angstrom",
+  "normalization": null,
+  "templates": [
+    {
+      "file": "fsps_model_0p1Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 0.1,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_0p5Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 0.5,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_1Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 1,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_2Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 2,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_3Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 3,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_4Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 4,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_5Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 5,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_6Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 6,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_7Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 7,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_8Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 8,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_9Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 9,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_10Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 10,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_11Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 11,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_12Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 12,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_13Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 13,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_14Gyr_logzsolm0p5_z0.txt",
+      "age_gyr": 14,
+      "logzsol": -0.5,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_0p1Gyr_Zsun_z0.txt",
+      "age_gyr": 0.1,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_0p5Gyr_Zsun_z0.txt",
+      "age_gyr": 0.5,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_1Gyr_Zsun_z0.txt",
+      "age_gyr": 1,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_2Gyr_Zsun_z0.txt",
+      "age_gyr": 2,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_3Gyr_Zsun_z0.txt",
+      "age_gyr": 3,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_4Gyr_Zsun_z0.txt",
+      "age_gyr": 4,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_5Gyr_Zsun_z0.txt",
+      "age_gyr": 5,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_6Gyr_Zsun_z0.txt",
+      "age_gyr": 6,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_7Gyr_Zsun_z0.txt",
+      "age_gyr": 7,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_8Gyr_Zsun_z0.txt",
+      "age_gyr": 8,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_9Gyr_Zsun_z0.txt",
+      "age_gyr": 9,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_10Gyr_Zsun_z0.txt",
+      "age_gyr": 10,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_11Gyr_Zsun_z0.txt",
+      "age_gyr": 11,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_12Gyr_Zsun_z0.txt",
+      "age_gyr": 12,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_13Gyr_Zsun_z0.txt",
+      "age_gyr": 13,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_14Gyr_Zsun_z0.txt",
+      "age_gyr": 14,
+      "logzsol": 0.0,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_0p1Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 0.1,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_0p5Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 0.5,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_1Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 1,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_2Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 2,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_3Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 3,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_4Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 4,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_5Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 5,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_6Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 6,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_7Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 7,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_8Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 8,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_9Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 9,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_10Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 10,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_11Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 11,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_12Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 12,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_13Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 13,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    },
+    {
+      "file": "fsps_model_14Gyr_logzsolp0p2_z0.txt",
+      "age_gyr": 14,
+      "logzsol": 0.2,
+      "redshift": 0.0,
+      "flux_units": "L_sun / Angstrom"
+    }
+  ]
+}

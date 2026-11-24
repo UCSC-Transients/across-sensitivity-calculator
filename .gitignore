@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Science specification drafts are kept local
+science-spec-sensitivity.md
+science-spec-sensitivity copy.md
+_science-spec-template.md

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "telescope": "HST",
+  "instrument": "WFC3/UVIS",
+  "mode": "imaging",
+  "throughput_directory": "throughputs/hst_wfc3",
+  "throughput_wavelength_unit": "Angstrom",
+  "throughput_version": "UVIS1 total-system throughput at reference epoch 2009-06-26; photometric calibration of October 2020 (Calamida et al. 2021, WFC3 ISR 2021-04)",
+  "throughput_source_url": "https://www.stsci.edu/hst/instrumentation/wfc3/performance/throughputs",
+  "pivot_source_url": "https://hst-docs.stsci.edu/wfc3ihb/chapter-6-uvis-imaging-with-wfc3/6-5-uvis-spectral-elements",
+  "sensitivity_version": "WFC3 Instrument Handbook (Cycle 34), Table 6.10; on-orbit sensitivity from SMOV4",
+  "sensitivity_source_url": "https://hst-docs.stsci.edu/wfc3ihb/chapter-6-uvis-imaging-with-wfc3/6-8-uvis-sensitivity",
+  "official_etc_url": "https://etc.stsci.edu/etc/input/wfc3uvis/imaging/",
+  "reference_snr": 10.0,
+  "reference_exposure_s": 3600.0,
+  "sensitivity_assumptions": [
+    "Unresolved point source with optimal (PSF-weighted) extraction",
+    "Published values are limiting AB magnitudes at S/N = 10 in 1 hour (10-hour limits are stored for validation)",
+    "Published magnitudes are rounded to 0.1 mag (about 10% in flux)",
+    "Throughput curves are for UVIS chip 1, which matches the handbook pivot wavelengths; UVIS2 is up to ~30% more sensitive below ~2500 Angstrom",
+    "Only filters with a published limiting magnitude are available as observing filters"
+  ],
+  "filters": [
+    {"name": "F225W", "pivot_um": 0.23721, "sensitivity_ab_mag": 26.7, "sensitivity_ab_mag_10hr": 28.1, "throughput_file": "wfc3_uvis1_f225w.txt"},
+    {"name": "F336W", "pivot_um": 0.33545, "sensitivity_ab_mag": 27.3, "sensitivity_ab_mag_10hr": 28.7, "throughput_file": "wfc3_uvis1_f336w.txt"},
+    {"name": "F438W", "pivot_um": 0.43262, "sensitivity_ab_mag": 27.3, "sensitivity_ab_mag_10hr": 28.7, "throughput_file": "wfc3_uvis1_f438w.txt"},
+    {"name": "F606W", "pivot_um": 0.58892, "sensitivity_ab_mag": 27.9, "sensitivity_ab_mag_10hr": 29.2, "throughput_file": "wfc3_uvis1_f606w.txt"},
+    {"name": "F814W", "pivot_um": 0.80391, "sensitivity_ab_mag": 27.1, "sensitivity_ab_mag_10hr": 28.4, "throughput_file": "wfc3_uvis1_f814w.txt"}
+  ]
+}
